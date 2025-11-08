@@ -10,18 +10,19 @@ setuptools-scm
 streamlit>=1.38.0
 
 # --- Machine learning and automation ---
-pycaret==3.3.2
+pycaret>=3.3.2
 scikit-learn>=1.4.0
 pandas>=1.5.3
 
 # --- Math and plotting ---
 numpy>=1.24.0
-matplotlib>=3.8.0
+matplotlib<3.8.0
 plotly>=5.22.0
 
 # --- Optional: improves performance in cloud environments ---
 joblib
 scipy
+
 
 
 
