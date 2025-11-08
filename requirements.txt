@@ -7,7 +7,7 @@ setuptools-scm
 streamlit>=1.38.0
 
 # --- Data manipulation & math ---
-pandas>=2.2.2
+pandas
 numpy>=1.26.4
 scipy>=1.13.0
 
@@ -25,3 +25,4 @@ plotly>=5.22.0
 # --- Optional performance & export helpers ---
 joblib>=1.4.0
 h5py>=3.11.0
+
