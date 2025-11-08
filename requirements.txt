@@ -1,30 +1,27 @@
-ta>=0.10.1
-rich>=10.14.0
-
-# --- Build essentials (fixes distutils / Python 3.13 issues) ---
+# --- Core build tools (fixes Python 3.13 distutils issues) ---
 setuptools
 wheel
 setuptools-scm
 
-# --- Core app framework ---
+# --- Streamlit web app ---
 streamlit>=1.38.0
 
-# --- Machine learning and automation ---
-pycaret
-scikit-learn>=1.4.0
-pandas>=1.5.3
+# --- Data manipulation & math ---
+pandas>=2.2.2
+numpy>=1.26.4
+scipy>=1.13.0
 
-# --- Math and plotting ---
-numpy
-matplotlib<3.8.0
+# --- Machine learning & automation ---
+pycaret==3.3.2
+scikit-learn>=1.4.0
+
+# --- Technical indicators ---
+ta>=0.11.0
+
+# --- Visualization ---
+matplotlib>=3.8.0
 plotly>=5.22.0
 
-# --- Optional: improves performance in cloud environments ---
-joblib
-scipy
-
-
-
-
-
-
+# --- Optional performance & export helpers ---
+joblib>=1.4.0
+h5py>=3.11.0
