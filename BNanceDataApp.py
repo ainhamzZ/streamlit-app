@@ -7,8 +7,8 @@ import matplotlib.pyplot as plt
 import numpy as np
 import plotly.graph_objects as go
 
-st.set_page_config(page_title="Binance Data Analytics Dashboard", layout="wide")
-st.title("🪙 Binance Data Analytics Dashboard")
+st.set_page_config(page_title="BNance Data Analytics Dashboard", layout="wide")
+st.title("🪙 BNance Data Analytics Dashboard")
 st.caption("Clean, model, export, and analyze Binance data seamlessly.")
 
 tabs = st.tabs([
@@ -372,3 +372,4 @@ with tabs[3]:
     st.plotly_chart(fig, use_container_width=True)
 
     st.success("✅ AI insights generated successfully! Select indicators to explore interactively.")
+
